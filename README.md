@@ -13,13 +13,13 @@ Ce projet a été développé pendant que j'étais en terminale au lycée donc i
 Découvrez UNO Online, une adaptation fidèle du célèbre jeu de cartes en version numérique ! Jouez avec vos amis en utilisant votre téléphone comme manette de jeu, tandis que l'écran principal affiche le plateau sur un PC ou une TV.
 
 ### 🖥️ Interface Hôte (PC)
-![Interface Hôte](docs/images/host-view.png)
+![Interface Hôte](docs/images/host_view.png)
 *Vue principale du jeu sur PC avec le plateau et les cartes des joueurs*
 
 ### 📱 Interface Mobile
 <p align="center">
-  <img src="docs/images/mobile-portrait.png" width="200" alt="Vue Portrait"/>
-  <img src="docs/images/mobile-landscape.png" width="400" alt="Vue Paysage"/>
+  <img src="docs/images/mobile_portrait.png" width="200" alt="Vue Portrait"/>
+  <img src="docs/images/mobile_landscape.png" width="400" alt="Vue Paysage"/>
 </p>
 *À gauche : Menu de connexion (portrait) - À droite : Interface de jeu (paysage)*
 
@@ -41,9 +41,9 @@ Découvrez UNO Online, une adaptation fidèle du célèbre jeu de cartes en vers
 
 ## 📦 Installation
 
-\`\`\`bash
+```bash
 # Cloner le repo
-git clone https://github.com/votre-username/uno.git
+git clone https://github.com/Akralan/Game_UNO_3D.git
 
 # Installer les dépendances
 cd uno/uno_server
@@ -51,7 +51,7 @@ npm install
 
 # Lancer le serveur
 node index.js
-\`\`\`
+```
 
 ## 🎮 Comment jouer
 
@@ -70,7 +70,7 @@ node index.js
 
 ## 🏗️ Architecture
 
-\`\`\`
+```
 uno/
 ├── assets/           # Assets principaux (CSS, JS, images)
 │   ├── css/         # Styles
@@ -81,7 +81,7 @@ uno/
 │   └── assets/      # Assets spécifiques mobile
 └── uno_server/      # Serveur Node.js
     └── index.js     # Point d'entrée serveur
-\`\`\`
+```
 
 ## 🔧 Configuration
 
@@ -90,10 +90,10 @@ uno/
 - Navigateur moderne avec support WebSocket
 
 ### Variables d'environnement
-\`\`\`env
+```env
 PORT=50000          # Port du serveur (défaut: 50000)
 HOST=localhost      # Hôte (défaut: localhost)
-\`\`\`
+```
 
 ## 📝 License
 
