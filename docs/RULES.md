@@ -1,37 +1,37 @@
-# 📋 Règles du UNO Online
+# UNO Online Rules
 
-## 🎯 But du jeu
-Le but du jeu est d'être le premier joueur à se débarrasser de toutes ses cartes.
+## Goal of the Game
+The goal is to be the first player to get rid of all your cards.
 
-## 🎴 Les cartes
-- **Cartes numérotées (0-9)** : Valeur faciale
-- **+2** : Le joueur suivant pioche 2 cartes
-- **Inversement** : Change le sens du jeu
-- **Passer** : Le joueur suivant passe son tour
-- **Joker** : Peut être jouée sur n'importe quelle carte
-- **+4** : Comme le Joker + le joueur suivant pioche 4 cartes
+## The Cards
+- **Number cards (0-9)**: Face value
+- **+2**: Next player draws 2 cards
+- **Reverse**: Changes direction of play
+- **Skip**: Next player loses their turn
+- **Wild**: Can be played on any card
+- **Wild +4**: Like Wild + next player draws 4 cards
 
-## 🎮 Déroulement du jeu
+## Gameplay
 
-1. **Distribution**
-   - Chaque joueur reçoit 7 cartes
-   - Une carte est retournée pour commencer la pile de défausse
+1. **Deal**
+   - Each player receives 7 cards
+   - One card is turned face up to start the discard pile
 
-2. **Tour de jeu**
-   - Jouer une carte de même couleur ou même chiffre
-   - Ou jouer une carte spéciale (Joker, +4)
-   - Si impossible, piocher une carte
+2. **Turn Sequence**
+   - Play a card of the same color or number
+   - Or play a special card (Wild, +4)
+   - If unable to play, draw a card
 
-3. **Cartes spéciales**
-   - **+2** : Le joueur suivant pioche 2 cartes et passe son tour
-   - **Inversement** : Change le sens du jeu
-   - **Passer** : Le joueur suivant passe son tour
-   - **Joker** : Choisir la nouvelle couleur
-   - **+4** : Choisir la couleur + joueur suivant pioche 4 cartes
+3. **Special Cards**
+   - **+2**: Next player draws 2 cards and loses their turn
+   - **Reverse**: Changes direction of play
+   - **Skip**: Next player loses their turn
+   - **Wild**: Choose the new color
+   - **Wild +4**: Choose color + next player draws 4 cards
 
-4. **Dire "UNO!"**
-   - Quand il ne reste qu'une carte
-   - Si oublié et dénoncé : piocher 2 cartes
+4. **Say "UNO!"**
+   - When you have only one card left
+   - If caught not saying it: draw 2 cards
 
-## 🏆 Fin de partie
-La partie se termine quand un joueur n'a plus de cartes.
+## End of Game
+The game ends when a player has no cards left.

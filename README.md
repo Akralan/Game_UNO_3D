@@ -1,115 +1,115 @@
 # 🎮 UNO Online
-> Un jeu de UNO multijoueur en temps réel avec interface mobile
+> A real-time multiplayer UNO game with mobile interface
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-2.3.0-green.svg)](https://socket.io/)
 [![Node.js](https://img.shields.io/badge/Node.js-Required-blue.svg)](https://nodejs.org/)
 
-[🎮 Jouer maintenant](http://localhost:50000) | [📱 Version mobile](http://localhost:50000/remote) | [📖 Documentation](docs/README.md)
+[🎮 Play Now](http://localhost:50000) | [📱 Mobile Version](http://localhost:50000/remote) | [📖 Documentation](docs/README.md)
 
 ## 🎯 Overview
 
-Ce projet a été développé pendant que j'étais en terminale au lycée donc il se peut qu'il y est quelques erreurs dans la programmation ou dans la méthodologie.
-Découvrez UNO Online, une adaptation fidèle du célèbre jeu de cartes en version numérique ! Jouez avec vos amis en utilisant votre téléphone comme manette de jeu, tandis que l'écran principal affiche le plateau sur un PC ou une TV.
+This project was developed while I was a senior in high school, so there may be some errors in the programming or methodology.
+Discover UNO Online, a faithful adaptation of the famous card game in digital version! Play with your friends using your phone as a game controller, while the main screen displays the game board on a PC or TV.
 
-### 🖥️ Interface Hôte (PC)
-![Interface Hôte](docs/images/host_view.png)
-*Vue principale du jeu sur PC avec le plateau et les cartes des joueurs*
+### 🖥️ Host Interface (PC)
+![Host Interface](docs/images/host-view.png)
+*Main game view on PC with the board and players' cards*
 
-### 📱 Interface Mobile
+### 📱 Mobile Interface
 <p align="center">
-  <img src="docs/images/mobile_portrait.png" width="200" alt="Vue Portrait"/>
-  <img src="docs/images/mobile_landscape.png" width="400" alt="Vue Paysage"/>
+  <img src="docs/images/mobile-portrait.png" width="200" alt="Portrait View"/>
+  <img src="docs/images/mobile-landscape.png" width="400" alt="Landscape View"/>
 </p>
-*À gauche : Menu de connexion (portrait) - À droite : Interface de jeu (paysage)*
+*Left: Login menu (portrait) - Right: Game interface (landscape)*
 
-## 🚀 Caractéristiques
+## 🚀 Features
 
-- 🎮 Interface intuitive inspirée du vrai jeu UNO
-- 📱 Mode mobile pour utiliser son téléphone comme manette
-- 👥 Multijoueur en temps réel
-- 🎨 Graphismes fidèles aux cartes originales
-- 🔄 Animations fluides
-- 🌐 Compatible tous navigateurs modernes
+- 🎮 Intuitive interface inspired by the real UNO game
+- 📱 Mobile mode to use your phone as a controller
+- 👥 Real-time multiplayer
+- 🎨 Graphics faithful to the original cards
+- 🔄 Smooth animations
+- 🌐 Compatible with all modern browsers
 
 ## 🛠️ Technologies
 
-- **Frontend**: HTML5, CSS3, JavaScript vanilla
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
 - **Backend**: Node.js, Express
 - **Communication**: Socket.IO 2.3.0
-- **Assets**: SVG, PNG optimisés
+- **Assets**: Optimized SVG, PNG
 
 ## 📦 Installation
 
 ```bash
-# Cloner le repo
+# Clone the repo
 git clone https://github.com/Akralan/Game_UNO_3D.git
 
-# Installer les dépendances
+# Install dependencies
 cd uno/uno_server
 npm install
 
-# Lancer le serveur
+# Start the server
 node index.js
 ```
 
-## 🎮 Comment jouer
+## 🎮 How to Play
 
-1. **Hôte (PC)**
-   - Ouvrez `http://localhost:50000`
-   - Créez une nouvelle partie
-   - Partagez le code de partie avec les joueurs
+1. **Host (PC)**
+   - Open `http://localhost:50000`
+   - Create a new game
+   - Share the game code with players
 
-2. **Joueurs (Mobile)**
-   - Ouvrez `http://localhost:50000/remote`
-   - Entrez le code de partie
-   - Orientez votre téléphone en mode paysage
+2. **Players (Mobile)**
+   - Open `http://localhost:50000/remote`
+   - Enter the game code
+   - Rotate your phone to landscape mode
 
-3. **Règles du jeu**
-   - [Lien vers les règles détaillées](docs/RULES.md)
+3. **Game Rules**
+   - [Link to detailed rules](docs/RULES.md)
 
 ## 🏗️ Architecture
 
 ```
 uno/
-├── assets/           # Assets principaux (CSS, JS, images)
+├── assets/           # Main assets (CSS, JS, images)
 │   ├── css/         # Styles
-│   ├── js/          # Logique côté hôte
-│   ├── svg/         # Logos et icônes
-│   └── texture/     # Textures des cartes
-├── remote/          # Interface mobile
-│   └── assets/      # Assets spécifiques mobile
-└── uno_server/      # Serveur Node.js
-    └── index.js     # Point d'entrée serveur
+│   ├── js/          # Host-side logic
+│   ├── svg/         # Logos and icons
+│   └── texture/     # Card textures
+├── remote/          # Mobile interface
+│   └── assets/      # Mobile-specific assets
+└── uno_server/      # Node.js server
+    └── index.js     # Server entry point
 ```
 
 ## 🔧 Configuration
 
-### Prérequis
+### Prerequisites
 - Node.js >= 12.0.0
-- Navigateur moderne avec support WebSocket
+- Modern browser with WebSocket support
 
-### Variables d'environnement
+### Environment Variables
 ```env
-PORT=50000          # Port du serveur (défaut: 50000)
-HOST=localhost      # Hôte (défaut: localhost)
+PORT=50000          # Server port (default: 50000)
+HOST=localhost      # Host (default: localhost)
 ```
 
 ## 📝 License
 
-MIT License - voir [LICENSE.md](LICENSE.md)
+MIT License - see [LICENSE.md](LICENSE.md)
 
-## 👥 Équipe
+## 👥 Team
 
-- [Akralan](https://github.com/Akralan) - Développeur principal
+- [Akralan](https://github.com/Akralan) - Lead Developer
 
-## 🙏 Remerciements
+## 🙏 Acknowledgments
 
-- [Socket.IO](https://socket.io/) - Pour la communication en temps réel
-- [Express](https://expressjs.com/) - Pour le serveur web
-- [Mattel](https://www.mattel.com) - Créateurs du jeu UNO original
+- [Socket.IO](https://socket.io/) - For real-time communication
+- [Express](https://expressjs.com/) - For web server
+- [Mattel](https://www.mattel.com) - Original UNO game creators
 
-## 📱 Compatibilité
+## 📱 Compatibility
 
 | Platform | Status |
 |----------|--------|
@@ -122,5 +122,5 @@ MIT License - voir [LICENSE.md](LICENSE.md)
 ---
 
 <p align="center">
-  Fait avec ❤️ par <a href="https://github.com/Akralan">Akralan</a>
+  Made with ❤️ by <a href="https://github.com/Akralan">Akralan</a>
 </p>
