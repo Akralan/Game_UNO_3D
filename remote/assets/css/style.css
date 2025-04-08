@@ -1,0 +1,142 @@
+body {
+  background-color: #E74C3C;
+}
+/* STYLE */
+#logo {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	margin-left: -100px;
+	top: 33px;
+	left: 50%;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;
+}
+#logo .st0 {fill: #E74C3C; -webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+
+
+/* FORM */
+.hide {height: 0px; width: 0px; display: none; opacity: 0;}
+.bottomDiv {
+	bottom: 25px;
+	position: fixed;
+	width: 75%;
+  max-width: 400px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bottomDiv .btn {
+	font-size: 1.33em;
+}
+
+.bottomDiv #settings {
+	background-color: #BA3E31;
+	padding: 1em;
+}
+
+.bottomDiv #settings .form-control {
+    color: #FFFFFF;
+    background-color: #E74C3C;
+    border: 0px solid #000000;
+}
+.bottomDiv #settings .form-control::placeholder {color: #FFFFFF;}
+.bottomDiv #settings label {
+    margin-bottom: .25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+
+#infoMessage {
+  display: table;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#infoMessage span {
+	font-size: 1.5rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#pickBtn {
+	background-color: rgb(5, 5, 5, 0.2);
+	background-image: url(../img/pick.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	border-radius: 0.25rem;
+}
+#refreshBtn {
+	background-color: rgb(5, 5, 5, 0.2);
+	background-image: url(../img/refresh.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 0;
+	width: 20%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	border-radius: 0.25rem;
+}
+
+#gameScreen {
+	z-index: 1;
+}
+
+#colorMenu {
+	top: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #BA3E31;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5rem;
+    font-weight: 400;
+}
+#colorPicker {
+	position: absolute;
+	background-color: #E74C3C;
+	width: 80%;
+	left: 10%;
+	height: auto;
+	top: 2.2rem;
+	bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#colorPicker .color_btn {
+	position: relative;
+	top: 30%;
+	border: 1px solid #FFFFFF;
+	height: 40%;
+	width: 15%;
+	border-radius: 1rem;
+}
+
+#changeRotation {
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/change_rotation.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,43 @@
+/* 
+MAIN COLOR : #
+MAIN COLOR WHITER : #
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100% !important;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* -------- HEADER -------- */
+
+/* -------- MAIN STYLE -------- */
+
+/* -------- FOOTER -------- */
+
+/* -------- RESPONSIVE -------- */
+/* 1200 */
+@media (max-width: 1200px) {}
+
+/* 992 */
+@media (max-width: 992px)  {}
+
+/* 768 */
+@media (max-width: 768px)  {}
+
+/* 576 */
+@media (max-width: 576px)  {}
+
+/* 434 */
+@media (max-width: 434px)  {}

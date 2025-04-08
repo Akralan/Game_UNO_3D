@@ -1,0 +1,161 @@
+/* STYLE */
+#logo {
+  position: absolute;
+	width: 200px;
+	height: auto;
+	margin-left: -100px;
+	top: 33px;
+	left: 50%;
+	z-index: 2;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;
+}
+#logo .st0 {fill: #E74C3C; -webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+
+
+/* SECTION */
+#multiDiv {
+  background-color: #E74C3C;
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+
+
+
+.hide {height: 0px; width: 0px; display: none; opacity: 0;}
+.bottomDiv {
+	bottom: 25px;
+	position: fixed;
+	width: 33%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bottomDiv .btn {
+	font-size: 1.33em;
+  margin: .5rem 0px;
+}
+
+.bottomDiv #settings {
+	background-color: rgb(5,5,5,0.2);
+	padding: 1em;
+}
+
+.bottomDiv #settings .form-control {
+    color: #FFFFFF;
+    background-color: #E74C3C;
+    border: 0px solid #000000;
+}
+.bottomDiv #settings .form-control::placeholder {color: #FFFFFF;}
+.bottomDiv #settings label {
+    margin-bottom: .25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+/* WAITING SCREEN */
+#waitingScreen {
+  background-color: #E74C3C;
+  height: 100vh;
+  width: 100%;
+}
+
+.info {
+
+  font-size: 1.7em;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.info .less {
+  font-weight: 500;
+}
+
+#infoID {
+  position: absolute; /* postulat de départ */
+  bottom: 5%; left: 5%; /* à 50%/50% du parent référent */
+}
+#infoPlayers {
+  position: absolute; /* postulat de départ */
+  top: 5%; left: 5%; /* à 50%/50% du parent référent */
+}
+#infoMessage {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+#infoLink {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#rules p {
+  font-size: 1em;
+  color: #FFFFFF;
+}
+
+#wonScreen {
+  background-color: rgb(5, 5, 5, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+#wonScreen div {
+  background-color: #E74C3C;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+  border-radius: 0.5rem;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#wonMessage {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#controlScreen {
+  background-color: rgb(5, 5, 5, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+#controlScreen div {
+  background-color: #E74C3C;
+  background-image: url(../img/controls.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  border-radius: 0.5rem;
+  border: 1px solid #FFFFFF;
+}
+#controlScreen img {
+  height: 80%;
+  width: auto;
+}
+#controlScreen button {
+  z-index: 4;
+  position: absolute;
+  bottom: 0;
+}
